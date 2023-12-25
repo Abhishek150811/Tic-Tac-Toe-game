@@ -8,7 +8,6 @@ export default function Player({name , symbol}){
         set_newvalue((prev_value) => !prev_value) ;
     }
     function handleChange(event){
-        console.log(event) ;
         set_newname(event.target.value) ;
     }
 
